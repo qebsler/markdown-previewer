@@ -5,17 +5,21 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>markdown previewer</title>
    <link rel="stylesheet" href="scss/index.scss">
+   <link href="https://fonts.googleapis.com/css?family=Space+Mono|Work+Sans" rel="stylesheet">
 </head>
 <body>
    <header>
-      <h1>Markdown Previewer</h1>
+      <div class="container">
+         <h1>Markdown Previewer</h1>
+      </div>
    </header>
    <section id="content">
-      <textarea id="markdown-input" cols="40" rows="30">
-         <!-- texte en markdown -->
-      </textarea>
-      <div id="markdown-result">
-         <!-- resultat du markdown -->
+      <div class="container">
+         <textarea id="markdown-input" cols="40" rows="30">
+         </textarea>
+         <div id="markdown-result">
+            <!-- resultat du markdown -->
+         </div>
       </div>
    </section>
    <script src="js/index.ts"></script>
