@@ -1,5 +1,48 @@
 #markdown-result {
    * {
-      line-height: 1.5em;
+      line-height: 1.75em;
    }
+   h1 {
+      font: bold 48px;
+      margin-top: 6px;
+   }
+   h2 {
+      font: 600 36px;
+      margin-top: 6px;
+   }
+   h3 {
+      font: 600 28px;
+      background-color: #ffff00;
+      margin-top: 6px;
+   }
+   h4 {
+      font: normal 22px;
+      margin-top: 6px;
+   }
+   h5 {
+      font: normal 18px;
+      margin-top: 6px;
+   }
+   h6 {
+      font: normal 14px;
+      margin-top: 6px;
+   }
+   p {
+      font: 500 16px;
+   }
+   ol, ul {
+      margin-left: 25px;
+   }
+   code {
+      font: 500 16px monospace;
+      color: #da0101;
+      background-color: #d6d6d6;
+      border-radius: 3px
+   }
+   blockquote {
+      padding-left: 12px;
+      border-left: 4px solid #b0b0b0;
+      margin-top: 6px;
+   }
+   overflow: scroll;
 }

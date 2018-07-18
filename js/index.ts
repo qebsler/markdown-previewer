@@ -1,5 +1,3 @@
-import addTextToTextarea from './addText'
-import textMarkdown from './markdown'
 import { transform } from './transform'
 
 const textarea: HTMLTextAreaElement = document.querySelector('textarea')
@@ -11,9 +9,4 @@ function change ():void {
 }
 
 change()
-addTextToTextarea(textMarkdown, textarea)
 transform(textarea.value, target)
-
-// textarea.addEventListener('change', () => {
-//    transform(textarea.value, target)
-// })

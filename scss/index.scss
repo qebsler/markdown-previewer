@@ -30,6 +30,10 @@ textarea {
    border-radius: 5px;
    border: 2px solid #00000070;
    padding: 10px;
+   outline: transparent;
+   &:focus {
+      border-color: #0055ffb6;
+   }
 }
 
 @import './markdown.scss';
