@@ -1,0 +1,18 @@
+{
+  "name": "markdown-preview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --cache-dir cache --port 3000 --open",
+    "no-cache": "parcel index.html --port 3000 --no-cache --open",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7",
+    "typescript": "^2.9.2"
+  }
+}
