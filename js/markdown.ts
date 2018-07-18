@@ -1,6 +1,6 @@
-const content = '# Titre\n' + 
-'## sous-titre\n' +
-'### sous-titre\n' + 
+const content = '# Titre\n\r' + 
+'## sous-titre\n\r' +
+'### sous-titre\n\r' + 
 'paragraphe'
 
 export default content
