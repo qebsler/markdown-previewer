@@ -6,12 +6,13 @@
   "scripts": {
     "start": "parcel index.html --cache-dir cache --port 3000 --open",
     "no-cache": "parcel index.html --port 3000 --no-cache --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --cache-dir cache"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "css-mqpacker": "^7.0.0",
     "node-sass": "^4.9.2",
     "parcel-bundler": "^1.9.7",
     "typescript": "^2.9.2"
